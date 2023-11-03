@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 # It prints the number of and the list of its arguments
-
-import sys
+if __name__ == "__main__":
+    import sys
 
 argc = len(sys.argv) - 1
 
