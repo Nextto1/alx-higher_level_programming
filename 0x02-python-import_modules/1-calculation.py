@@ -5,7 +5,7 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-    print("Add: {}".format(add(a, b)))
-    print("Subtract: {}".format(sub(a, b)))
-    print("Multiply: {}".format(mul(a, b)))
-    print("Divide: {}".format(div(a, b)))
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+    print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
+    print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
+    print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
